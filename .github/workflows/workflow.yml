@@ -34,4 +34,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
        name: my-application-jar # Name for your artifact
-       path: target/my-application.jar
+       path: target/*.jar
